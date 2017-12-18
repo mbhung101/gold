@@ -1,0 +1,257 @@
+.bigArrowRight {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #043a56;
+  top: 387px;
+  left: 278px;
+}
+
+
+.Downloadproxybox{
+  display: inline-block;
+  width: 219px;
+  height: 24px;
+  margin-top: 41px;
+  vertical-align: top;
+  font-size: 18px;
+  font-family: OpenSans;
+  color: #043a56;
+}
+
+.logo {
+  width: 85px;
+  height: 42px;
+  margin-top: 24px;
+  margin-bottom: 35px;
+  margin-left: 89px;
+}
+
+.line {
+  width: 99px;
+  position: absolute;
+  top: 190px;
+  left: 248px;
+  color: white;
+  border: solid 2px #ffffff;
+  background: white;
+}
+
+.links {
+  font-size: 18px;
+  margin-right: 80px;
+}
+
+.Navbox {
+  width: 1440px;
+  height: 101px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.Navlinks {
+  display: inline-block;
+  width: 620px;
+  height: 24px;
+  margin-top: 40px;
+  margin-left: 76px;
+  vertical-align: top;
+  font-size: 18px;
+  font-family: OpenSans;
+  color: #043a56;
+}
+
+.ourBoxes{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 85px;
+}
+
+
+.ourLargeBox{
+  display: inline-block;
+  height:300px;
+  width:620px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.ourLargeLearnMore{
+  position: absolute;
+  width: 134px;
+  height: 43px;
+  border: solid 2px #ffffff;
+  text-align: center;
+  bottom: 52px;
+  left: 243px;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 43px;
+}
+
+.ourLearnMore{
+  position: absolute;
+  width: 134px;
+  height: 43px;
+  border: solid 2px #ffffff;
+  text-align: center;
+  bottom: 52px;
+  left: 83px;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 43px;
+}
+
+.ourLearnMoreMid{
+  position: absolute;
+  width: 134px;
+  height: 43px;
+  border: solid 2px #ffffff;
+  text-align: center;
+  bottom: 52px;
+  left: 243px;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 43px;
+}
+
+
+.ourLargeImage{
+  height:300px;
+  width:620px;
+}
+
+.ourSmallBox{
+  display: inline-block;
+  height:300px;
+  width:300px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.ourSmallImage{
+  height:300px;
+  width:300px;
+}
+
+.ourSmallText{
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+  bottom: 125px;
+}
+
+.ourSmallTextMid{
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  font-size: 28px;
+  text-align: center;
+  color: #ffffff;
+  bottom: 125px;
+  left: 160px;
+}
+
+.ovalLarge {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  top: 365px;
+  left: 250px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ovalSmall {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  bottom: 173px;
+  left: 123px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ovalSmallMid {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  bottom: 173px;
+  left: 282px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.smallArrowRight {
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 187px;
+  left: 144px;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 18px solid #043a56;
+}
+
+.smallArrowRightMid {
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 187px;
+  left: 303px;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 18px solid #043a56;
+}
+
+.welcomeBox{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.welcomeDelivering {
+  position: absolute;
+  width: 556px;
+  height: 124px;
+  top: 210px;
+  left: 248px;
+  color: white;
+  font-size: 46px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.welcomeImg{
+  width: 1439px;
+  height: 660px;
+  opacity: .95
+}
+
+.welcomeText {
+    position: absolute;
+    width: 371px;
+    height: 30px;
+    top: 150px;
+    left: 248px;
+    color: white;
+    font-size: 21px;
+    text-align: left;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
