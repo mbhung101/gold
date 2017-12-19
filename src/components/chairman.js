@@ -9,7 +9,7 @@ export default class Chairman extends Component {
     return(
       <div>
         <div className="executiveBox">
-          <div className ="executiveQuotes"> '' </div>
+          <div className ="executiveQuotes">&ldquo;</div>
           <div className ="executiveQuote"> I like golddddddddddddddddd </div>
           <div className ="executiveTitle">Letter from the Executive Chairman</div>
           <div className ="executiveReadMore">Read More</div>
@@ -22,7 +22,7 @@ export default class Chairman extends Component {
           <img src={require('../Assets/director.png')} className="directorImage" />
           <div className="executiveBox">
             <div className ="directorTitle">Letter from the Lead Director</div>
-            <div className ="directorQuotes"> '' </div>
+            <div className ="directorQuotes">&ldquo;</div>
             <div className ="directorQuote"> I like golddddddddddddddddd </div>
             <div className ="directorReadMore">Read More</div>
           </div>

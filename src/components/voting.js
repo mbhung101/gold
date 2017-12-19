@@ -12,7 +12,7 @@ export default class Voting extends Component {
   render(){
     return(
         <div>
-          <img src={require('../Assets/vote.jpg')} style={{width:"1440px",height:"763px",marginTop:"108px"}}/>
+          <div className="votingBack"></div>
           <div className="votingItems"> 2018 Voting Items</div>
           <div className="votingBoxes">
             <div className="votingBox">

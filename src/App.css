@@ -1,16 +1,3 @@
-.annualAddress{
-  width: 303px;
-  height: 33px;
-  font-family: Open Sans;
-  font-size: 24px;
-  text-align: left;
-  color: #043a56;
-  position: relative;
-  left: 714px;
-  top: 190px;
-  line-height: 1.4;
-}
-
 .addBox{
   width: 520px;
   height: 46px;
@@ -25,6 +12,19 @@
   color: #043a56;
   margin-top: 77px;
   margin-left: 460px;
+}
+
+.annualAddress{
+  width: 303px;
+  height: 33px;
+  font-family: Open Sans;
+  font-size: 24px;
+  text-align: left;
+  color: #043a56;
+  position: relative;
+  left: 714px;
+  top: 190px;
+  line-height: 1.4;
 }
 
 .annualDate {
@@ -174,7 +174,7 @@
 .directorQuotes{
   width: 1px;
   height: 1px;
-  font-family: Helvetica;
+  font-family: Sail;
   font-size: 106px;
   font-weight: bold;
   text-align: left;
@@ -286,7 +286,7 @@
 .executiveQuotes{
   width: 1px;
   height: 1px;
-  font-family: Helvetica;
+  font-family: Sail;
   font-size: 106px;
   font-weight: bold;
   text-align: left;
@@ -577,6 +577,15 @@
   border-left: 18px solid #043a56;
 }
 
+.votingBack{
+  width:1440px;
+  height:763px;
+  margin-top:108px;
+  background-image: url("./Assets/vote.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .votingBoxes{
   display: inline-block;
 }
@@ -833,6 +842,9 @@
   position: relative;
   text-align: center;
   color: white;
+  background-image: url("./Assets/welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .welcomeDelivering {

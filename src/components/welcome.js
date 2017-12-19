@@ -9,7 +9,7 @@ export default class Welcome extends Component {
   render(){
     return(
       <div className="welcomeBox">
-        <img src={require('../Assets/welcome.jpg')} className="welcomeImg" />
+        <div className="welcomeImg"> </div>
         <div className="welcomeText">Welcome</div>
         <div className="line1"></div>
         <div className="welcomeDelivering"> Barrick: Delivering for Shareholders</div>
