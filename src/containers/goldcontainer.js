@@ -5,6 +5,8 @@ import Our from '../components/our'
 import Chairman from '../components/chairman'
 import Information from '../components/information'
 import Voting from '../components/voting'
+import Annual from '../components/annual'
+import Bottom from '../components/bottom'
 
 export default class GoldContainer extends Component {
 
@@ -24,6 +26,8 @@ export default class GoldContainer extends Component {
         <Chairman/>
         <Information/>
         <Voting/>
+        <Annual/>
+        <Bottom/>
       </div>
     )
   }

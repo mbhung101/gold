@@ -7,18 +7,17 @@ export default class Nav extends Component {
   render(){
     return(
       <div>
-        <div className="Navbox">
+        <div className="navBox">
         <img src={require('../Assets/Barrick_logo.png')} className="logo"/>
-          <div className="Navlinks">
-          <a className="links"> Our Board</a>
-          <a className="links"> Our Board</a>
-          <a className="links"> Our Board</a>
-          <a className="links"> Our Board</a>
+          <div className="navLinks">
+            <a className="navLink"> Our Board</a>
+            <a className="navLink"> Our Company</a>
+            <a className="navLink"> Our Pay</a>
+            <a className="navLink"> 2018 Meeting</a>
           </div>
-          <div className="Downloadproxybox">
-            <a className="DownloadProxy"> Our Board</a>
-            <a className="DownloadProxy"> Our Board</a>
-          </div>
+          <a className="navProxy"> Download Proxy </a>
+          <a className="navProxy"> Annual Report </a>
+          <div className="navButton"> Vote Now </div> 
         </div>
 
       </div>

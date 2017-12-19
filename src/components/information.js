@@ -20,13 +20,13 @@ export default class Information extends Component {
           </div>
           <div className="infoBox">
             <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"380px",height:"194.2px"}}/>
-            <div className="infoSmallText">Notice of Meeting</div>
+            <div className="infoSmallText">Form of Proxy</div>
             <div className="infoArrow"></div>
           </div>
           <div className="infoBox">
             <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"380px",height:"194.2px"}}/>
-            <div className="infoSmallText">Notice of Meeting</div>
-            <div className="infoArrow"></div>            
+            <div className="infoSmallText">Meeting & Voting Info</div>
+            <div className="infoArrow"></div>
           </div>
         </div>
       </div>
