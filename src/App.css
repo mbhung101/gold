@@ -1,3 +1,21 @@
+.backgroundLogo{
+  width: 390px;
+  height: 328.6px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 74px;
+  float: right;
+}
+
+.backgroundLogo2{
+  width: 390px;
+  height: 328.6px;
+  display: inline;
+  vertical-align: top;
+  margin-top: 74px;
+  float: left;
+}
+
 .bigArrowRight {
   position: absolute;
   width: 0;
@@ -9,6 +27,63 @@
   left: 278px;
 }
 
+.directorImage{
+  width: 260px;
+  height: 412px;
+  display: inline-block;
+  margin-left: 52px;
+}
+
+.directorQuote{
+  width: 360px;
+  height: 60px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #043a56;
+  text-align: left;
+  position: relative;
+  left: 120px;
+  top: 26px;
+}
+
+.directorQuotes{
+  width: 1px;
+  height: 1px;
+  font-family: Helvetica;
+  font-size: 106px;
+  font-weight: bold;
+  text-align: left;
+  color: #ba880b;
+  margin-left: 52px;
+}
+
+.directorReadMore{
+  width: 134px;
+  height: 43px;
+  border: solid 2px #ba880b;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 43px;
+  color: #ba880b;
+  font-weight: bold;
+  margin-top:58px;
+  margin-left: 119px;
+}
+
+.directorTitle {
+  width: 320px;
+  height: 98px;
+  font-family: OpenSans;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  color: #043a56;
+  margin-left: 36px;
+  margin-top:61px;
+  display: inline-block;
+  vertical-align: top;
+}
 
 .Downloadproxybox{
   display: inline-block;
@@ -21,27 +96,170 @@
   color: #043a56;
 }
 
+.executiveBox{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.executiveReadMore{
+  width: 134px;
+  height: 43px;
+  border: solid 2px #ba880b;
+  text-align: center;
+  vertical-align:middle;
+  line-height: 43px;
+  color: #ba880b;
+  font-weight: bold;
+  margin-left: 331px;
+  margin-top: 119px;
+  position: absolute;
+}
+
+.executiveImage{
+  width: 240px;
+  height: 436px;
+  display: inline-block;
+  margin-top: 53px;
+  margin-right: 26px;
+  margin-left: 120px;
+}
+
+.executiveTitle {
+  width:520px;
+  height: 98px;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  color: #043a56;
+  margin-left: 250px;
+  margin-top: 106px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 14px;
+}
+
+.executiveQuote{
+  width: 360px;
+  height: 60px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #043a56;
+  text-align: left;
+  margin-left: 330px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 237px;
+}
+
+.executiveQuotes{
+  width: 1px;
+  height: 1px;
+  font-family: Helvetica;
+  font-size: 106px;
+  font-weight: bold;
+  text-align: left;
+  color: #ba880b;
+  margin-left: 263px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 215px;
+}
+
+.addBox{
+  width: 520px;
+  height: 46px;
+  font-family: OpenSans;
+  font-size: 34px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #043a56;
+  margin-top: 77px;
+  margin-left: 460px;
+}
+
+.infoArrow{
+  position: absolute;
+  border-right: 10px solid #ba880b;
+  border-bottom: 10px solid #ba880b;
+  height: 30px;
+  width: 30px;
+  transform: rotate(-45deg);
+  top: 80px;
+  right:40px;
+}
+
+.infoBox{
+  width: 380px;
+  height: 194.2px;
+  background-color: #002c42;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: 60px;
+  position: relative;
+}
+
+.infoBoxes{
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 85px;
+}
+
+.infoSmallText{
+  position: absolute;
+  width: 196;
+  height: 28px;
+  font-size: 21px;
+  text-align: left;
+  color: #ffffff;
+  top: 84px;
+  left:27px;
+}
+
+.line1 {
+  width: 99px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  top:198px;
+  left:250px;
+}
+
+.line2 {
+  width: 1051px;
+  height: 3px;
+  background: #ededed;
+  position: relative;
+  top:-5px;
+}
+
+.line3 {
+  width: 1051px;
+  height: 3px;
+  background: #ededed;
+  position: relative;
+  top:-5px;
+  float:right;
+}
+
+
+
+.links {
+  font-size: 18px;
+  margin-right: 80px;
+}
+
 .logo {
   width: 85px;
   height: 42px;
   margin-top: 24px;
   margin-bottom: 35px;
   margin-left: 89px;
-}
-
-.line {
-  width: 99px;
-  position: absolute;
-  top: 190px;
-  left: 248px;
-  color: white;
-  border: solid 2px #ffffff;
-  background: white;
-}
-
-.links {
-  font-size: 18px;
-  margin-right: 80px;
 }
 
 .Navbox {
@@ -214,6 +432,24 @@
   border-left: 18px solid #043a56;
 }
 
+.votingBox{
+  margin-top:108px;
+  display: inline-block;
+}
+
+.votingItems{
+  position: relative;
+  width: 520px;
+  height: 46px;
+  font-family: OpenSans;
+  font-size: 34px;
+  text-align: left;
+  color: #ffffff;
+  display: inline;
+  bottom: 700px;
+  left: 70px;
+}
+
 .welcomeBox{
   position: relative;
   text-align: center;
@@ -230,6 +466,8 @@
   font-size: 46px;
   text-align: left;
   line-height: 1.5;
+  font-family: Open Sans;
+  font-weight: bold;
 }
 
 .welcomeImg{
