@@ -27,17 +27,17 @@ export default class Chairman extends Component {
         </div>
 
 
-
+        <div stlye={{width:"100%"}}>
           <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo2"/>
           <img src={require('../Assets/director.png')} className="directorImage" />
-          <div className="line3"></div>          
+          <div className="line3"></div>
           <div className="directorBox">
             <div className ="directorTitle">Letter from the Lead Director</div>
             <div className ="directorQuotes">&ldquo;</div>
             <div className ="directorQuote"> I like golddddddddddddddddd </div>
             <div className ="directorReadMore">Read More</div>
           </div>
-
+        </div>
 
       </div>
     )
