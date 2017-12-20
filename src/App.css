@@ -395,14 +395,27 @@
 }
 
 .navBox {
+  height: 100%;
+  width: 50%;
   background-color: #ffffff;
+  float:left;
 }
+
+.navBox2 {
+  display: inline-block;
+  background-color: #ffffff;
+  height: 100%;
+  width: 43.1%;
+  float:right;
+  text-align: right;
+  margin-right: 6.9%
+}
+
 
 .navButton{
   display: inline-block;
   width: 160px;
   height: 40px;
-  margin-right: 7%;
   text-align: center;
   background: #c79226;
   line-height: 2.8;
@@ -410,8 +423,6 @@
   font-family: Open Sans;
   font-size: 14px;
   font-weight: bold;
-  position: absolute;
-  top:32px;
 }
 
 .navLink {
@@ -419,16 +430,16 @@
   margin-right: 40px;
   font-family: Open Sans;
   color: #043a56;
-  background-color: #ffffff
+  background-color: #ffffff;
+  display: inline-block;
 }
 
 .navLinks {
   display: inline-block;
-  width: 620px;
-  height: 24px;
+  width: 620;
+  height: 24;
   margin-top: 40px;
   margin-left: 76px;
-  margin-right: 79px;
   vertical-align: top;
   font-size: 18px;
   font-family: Open Sans;
@@ -436,15 +447,12 @@
 }
 
 .navProxy{
-  width: 85px;
-  height: 24px;
-  margin-top: 43px;
-  margin-right: 18px;
-  font-family: Open Sans;
   font-size: 10px;
-  text-align: left;
-  vertical-align: top;
+  margin-top: 40px;
+  margin-right: 30px;
+  font-family: Open Sans;
   color: #043a56;
+  background-color: #ffffff;
   display: inline-block;
 }
 
