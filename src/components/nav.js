@@ -8,7 +8,7 @@ export default class Nav extends Component {
     return(
       <div className="navBar">
         <div className="navBox">
-          <img src={require('../Assets/Barrick_logo.png')} className="logo"/>
+          <img src={require('../Assets/Barrick_logo.png')} className="navLogo"/>
           <div className="navLinks">
             <a className="navLink"> Our Board</a>
             <a className="navLink"> Our Company</a>

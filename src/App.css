@@ -378,19 +378,18 @@
 }
 
 
-.logo {
+.navLogo {
   width: 85px;
   height: 42px;
   margin-top: 24px;
   margin-bottom: 35px;
-  margin-left: 7%;
 }
 
 .navBar{
   position: fixed;
   top: 0;
   width: 100%;
-  height:100px;
+  height:80px;
   z-index:1000;
   background: white;
 }
@@ -400,13 +399,14 @@
   width: 50%;
   background-color: #ffffff;
   float:left;
+  margin-left: 7%
 }
 
 .navBox2 {
   display: inline-block;
   background-color: #ffffff;
   height: 100%;
-  width: 43.1%;
+  width: 30%;
   float:right;
   text-align: right;
   margin-right: 6.9%
@@ -437,7 +437,7 @@
 
 .navLinks {
   display: inline-block;
-  width: 620;
+  width:480px;
   height: 24;
   margin-top: 40px;
   margin-left: 76px;
@@ -504,7 +504,7 @@
   height: 43px;
   border: solid 2px #ffffff;
   text-align: center;
-  bottom: 52px;
+  bottom: 14%;
   left: 83px;
   text-align: center;
   vertical-align:middle;
@@ -517,7 +517,7 @@
   height: 43px;
   border: solid 2px #ffffff;
   text-align: center;
-  bottom: 52px;
+  bottom: 14%;
   left: 243px;
   text-align: center;
   vertical-align:middle;
@@ -557,7 +557,7 @@
   font-size: 28px;
   text-align: center;
   color: #ffffff;
-  bottom: 115px;
+  bottom: 36%;
   font-family: Open Sans
 }
 
@@ -566,10 +566,9 @@
   width: 300px;
   height: 38px;
   font-size: 28px;
-  text-align: center;
   color: #ffffff;
-  bottom: 115px;
-  left: 160px;
+  bottom: 36%;
+  left: 26%;
 }
 
 .ovalLarge {
@@ -588,8 +587,8 @@
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  bottom: 173px;
-  left: 123px;
+  bottom: 55%;
+  left: 42%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -599,8 +598,8 @@
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  bottom: 173px;
-  left: 282px;
+  bottom: 53%;
+  left: 46%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -609,8 +608,8 @@
   position: absolute;
   width: 0;
   height: 0;
-  bottom: 187px;
-  left: 144px;
+  bottom: 60%;
+  left: 49%;
   border-top: 14px solid transparent;
   border-bottom: 14px solid transparent;
   border-left: 18px solid #043a56;
@@ -620,8 +619,8 @@
   position: absolute;
   width: 0;
   height: 0;
-  bottom: 187px;
-  left: 303px;
+  bottom: 58%;
+  left: 49.5%;
   border-top: 14px solid transparent;
   border-bottom: 14px solid transparent;
   border-left: 18px solid #043a56;
