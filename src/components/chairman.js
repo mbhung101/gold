@@ -13,10 +13,11 @@ export default class Chairman extends Component {
           <div className ="executiveQuote"> I like golddddddddddddddddd </div>
           <div className ="executiveTitle">Letter from the Executive Chairman</div>
           <div className ="executiveReadMore">Read More</div>
-        </div>
+
           <img src={require('../Assets/Chairman.png')} className="executiveImage" />
-          <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo"/>
           <div className="line2"></div>
+        </div>
+        <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo"/>        
           <div style={{marginTop:"52px"}}> </div>
 
           <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo2"/>

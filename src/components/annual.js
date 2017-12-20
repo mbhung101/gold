@@ -8,8 +8,8 @@ export default class Annual extends Component {
   render(){
     return(
       <div>
-        <div style={{marginTop:"52px",width:"1440px",height:"528px"}}>
-          <img src={require('../Assets/footer-crowd.png')} style={{width:"1440px",height:"528px",position:"absolute"}}/>
+        <div style={{marginTop:"52px",width:"100%",height:"528px"}}>
+          <img src={require('../Assets/footer-crowd.png')} style={{width:"100%",height:"528px;",position:"absolute"}}/>
           <div className="annualDetails">Annual Meeting Details</div>
           <div className="annualWhen">When</div>
           <div className="annualWhere">Where</div>

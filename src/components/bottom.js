@@ -8,9 +8,8 @@ export default class Bottom extends Component {
   render(){
     return(
       <div>
-        <div className="bottomBar"></div>
-        <div className="Navbox">
-          <img src={require('../Assets/Barrick_logo.png')} className="logo"/>
+        <div className="bottomBox">
+          <img src={require('../Assets/Barrick_logo.png')} className="navLogo"/>
           <div className="bottomSearch">
             <div className="ui icon input">
               <input type="text" placeholder="Search..." />

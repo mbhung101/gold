@@ -1,17 +1,10 @@
 .addBox{
-  width: 520px;
-  height: 46px;
+  width: 100%;
   font-family: Open Sans;
   font-size: 34px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #043a56;
   margin-top: 77px;
-  margin-left: 460px;
 }
 
 .annualAddress{
@@ -138,17 +131,18 @@
   left: 278px;
 }
 
-.bottomBar{
-  width: 1440px;
-  height: 9px;
-  background: #043a56;
+.bottomBox{
+  width:87%;
+  height: 80px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .bottomSearch{
-  display: inline-block;
   float:right;
-  margin-top: 25px;
-  margin-right: 90px;
+  margin-top: 20px;
 }
 
 .directorBox{
@@ -232,6 +226,7 @@
 .executiveBox{
   display: inline-block;
   vertical-align: top;
+  width: 100%
 }
 
 .executiveReadMore{
@@ -383,6 +378,7 @@
   height: 42px;
   margin-top: 24px;
   margin-bottom: 35px;
+  display: inline-block;
 }
 
 .navBar{
@@ -583,23 +579,23 @@
 }
 
 .ovalSmall {
-  position: absolute;
+  position: relative;
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  bottom: 55%;
-  left: 42%;
+  bottom: 50%;
+  left: 50%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .ovalSmallMid {
-  position: absolute;
+  position: relative;
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  bottom: 53%;
-  left: 46%;
+  bottom: 50%;
+  left: 50%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
