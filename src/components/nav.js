@@ -6,7 +6,7 @@ export default class Nav extends Component {
   }
   render(){
     return(
-      <div>
+      <div className="navBar">
         <div className="navBox">
         <img src={require('../Assets/Barrick_logo.png')} className="logo"/>
           <div className="navLinks">
@@ -17,9 +17,8 @@ export default class Nav extends Component {
           </div>
           <a className="navProxy"> Download Proxy </a>
           <a className="navProxy"> Annual Report </a>
-          <div className="navButton"> Vote Now </div> 
+          <div className="navButton"> Vote Now </div>
         </div>
-
       </div>
     )
   }
