@@ -9,16 +9,24 @@ export default class Chairman extends Component {
     return(
       <div>
         <div className="executiveBox">
+          <div className="executiveWords">
+          <div className ="executiveTitle">Letter from the Executive Chairman</div>
           <div className ="executiveQuotes">&ldquo;</div>
           <div className ="executiveQuote"> I like golddddddddddddddddd </div>
-          <div className ="executiveTitle">Letter from the Executive Chairman</div>
           <div className ="executiveReadMore">Read More</div>
+          </div>
+          <div className="executivePics">
+            <img src={require('../Assets/Chairman.png')} className="executiveImage" />
+          </div>
+          <div className="line2"></div>  
+          <img src={require('../Assets/barrick-icon.png')} className="executiveLogo"/>
 
-          <img src={require('../Assets/Chairman.png')} className="executiveImage" />
-          <div className="line2"></div>
+
+
+
         </div>
-        <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo"/>        
-          <div style={{marginTop:"52px"}}> </div>
+
+
 
           <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo2"/>
           <img src={require('../Assets/director.png')} className="directorImage" />
