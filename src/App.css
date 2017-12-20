@@ -226,10 +226,10 @@
   height: 328.6px;
   display: inline-block;
   vertical-align: top;
-  float: right;
   position: relative;
-  left: 60%;
-  bottom: 25%
+  float: right;
+  left: 80%;
+  bottom: 100px;
 }
 
 .executivePics{
@@ -298,9 +298,8 @@
   color: #ba880b;
   position: relative;
   display: inline-block;
-  top:70px;
-  left: 25%;
-
+  top: 70px;
+  left: 145px;
 }
 
 .executiveWords{
@@ -367,7 +366,7 @@
 }
 
 .line2 {
-  width: 1051px;
+  width: 70%;
   height: 3px;
   background: #ededed;
   position: relative;
@@ -375,11 +374,10 @@
 }
 
 .line3 {
-  width: 1051px;
+  width: 80%;
   height: 3px;
   background: #ededed;
   position: relative;
-  top:-5px;
   float:right;
 }
 

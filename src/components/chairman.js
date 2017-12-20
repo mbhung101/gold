@@ -18,7 +18,7 @@ export default class Chairman extends Component {
           <div className="executivePics">
             <img src={require('../Assets/Chairman.png')} className="executiveImage" />
           </div>
-          <div className="line2"></div>  
+          <div className="line2"></div>
           <img src={require('../Assets/barrick-icon.png')} className="executiveLogo"/>
 
 
@@ -30,13 +30,13 @@ export default class Chairman extends Component {
 
           <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo2"/>
           <img src={require('../Assets/director.png')} className="directorImage" />
+          <div className="line3"></div>          
           <div className="directorBox">
             <div className ="directorTitle">Letter from the Lead Director</div>
             <div className ="directorQuotes">&ldquo;</div>
             <div className ="directorQuote"> I like golddddddddddddddddd </div>
             <div className ="directorReadMore">Read More</div>
           </div>
-          <div className="line3"></div>
 
 
       </div>
