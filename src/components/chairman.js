@@ -18,9 +18,10 @@ export default class Chairman extends Component {
           <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo"/>
           <div className="line2"></div>
           <div style={{marginTop:"52px"}}> </div>
+
           <img src={require('../Assets/barrick-icon.png')} className="backgroundLogo2"/>
           <img src={require('../Assets/director.png')} className="directorImage" />
-          <div className="executiveBox">
+          <div className="directorBox">
             <div className ="directorTitle">Letter from the Lead Director</div>
             <div className ="directorQuotes">&ldquo;</div>
             <div className ="directorQuote"> I like golddddddddddddddddd </div>

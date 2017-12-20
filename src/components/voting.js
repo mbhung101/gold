@@ -11,7 +11,7 @@ export default class Voting extends Component {
 
   render(){
     return(
-        <div>
+        <div className="votingDiv">
           <div className="votingBack"></div>
           <div className="votingItems"> 2018 Voting Items</div>
           <div className="votingBoxes">

@@ -14,17 +14,17 @@ export default class Information extends Component {
         </div>
         <div className="infoBoxes">
           <div className="infoBox">
-            <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"380px",height:"194.2px"}}/>
+            <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"100%",height:"100%"}}/>
             <div className="infoSmallText">Notice of Meeting</div>
             <div className="infoArrow"></div>
           </div>
           <div className="infoBox">
-            <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"380px",height:"194.2px"}}/>
+            <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"100%",height:"100%"}}/>
             <div className="infoSmallText">Form of Proxy</div>
             <div className="infoArrow"></div>
           </div>
           <div className="infoBox">
-            <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"380px",height:"194.2px"}}/>
+            <img src={require('../Assets/blueLogo.jpg')} style={{display:"inlineBlock",width:"100%",height:"100%"}}/>
             <div className="infoSmallText">Meeting & Voting Info</div>
             <div className="infoArrow"></div>
           </div>
