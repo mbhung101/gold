@@ -641,7 +641,7 @@
   position: absolute;
   text-align: left;
   color: white;
-  margin-top: 15%;
+  margin-top: 10%;
   left: 7%;
 }
 
@@ -650,8 +650,8 @@
   position: absolute;
   text-align: left;
   color: white;
-  margin-top: 15%;
-  left: 36%;
+  margin-top: 10%;
+  left: 38%;
 }
 
 .votingBox3{
@@ -659,8 +659,8 @@
   position: absolute;
   text-align: left;
   color: white;
-  margin-top: 15%;
-  left: 65%;
+  margin-top: 10%;
+  left: 68.5%;
 }
 
 .votingButton{
@@ -670,7 +670,7 @@
   position: relative;
   text-align: center;
   background: #c79226;
-  bottom: 70px;
+  bottom: 90px;
   line-height: 2.8;
   color: white;
   font-family: Open Sans;
@@ -687,7 +687,7 @@
   color: white;
   font-family: Open Sans;
   font-size: 36px;
-  bottom: 60px;
+  bottom: 80px;
 }
 
 .votingCheckbox1 {
@@ -727,12 +727,12 @@
   color: #ffffff;
   display: inline-block;
   left: 7%;
-  top: 15%;
+  top: 10%;
 
 }
 
 .votingLabel1{
-  width: 399px;
+  width: 350px;
   height: 46px;
   font-family: Open Sans;
   font-size: 34px;
@@ -742,7 +742,7 @@
   position: absolute;
   text-align: left;
   display: inline-block;
-  top: 120px;
+  top: 110px;
   line-height: 1.2;
 }
 
@@ -758,13 +758,13 @@
   color: #ffffff;
   position: absolute;
   display: inline-block;
-  top: 380px;
+  top: 400px;
   left: 100px;
 }
 
 
 .votingText1{
-  width: 380px;
+  width: 350px;
   height: 147px;
   font-family: Open Sans;
   font-size: 14px;
@@ -773,7 +773,7 @@
   position: absolute;
   text-align: left;
   display: inline-block;
-  top: 200px;
+  top: 210px;
 }
 
 .welcomeBox{
