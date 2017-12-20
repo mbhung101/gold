@@ -264,6 +264,7 @@
 }
 
 .executiveTitle {
+  width: 400px;
   font-family: Open Sans;
   font-size: 36px;
   font-weight: bold;
@@ -297,9 +298,8 @@
   text-align: left;
   color: #ba880b;
   position: relative;
-  display: inline-block;
   top: 70px;
-  left: 145px;
+  left: 20%;
 }
 
 .executiveWords{
@@ -556,12 +556,13 @@
 
 .ourSmallText{
   position: absolute;
-  width: 300px;
+  width: 200px;
   height: 38px;
   font-size: 28px;
   text-align: center;
   color: #ffffff;
-  bottom: 36%;
+  bottom: 100px;
+  left: 20%;
   font-family: Open Sans
 }
 
@@ -612,7 +613,7 @@
   position: absolute;
   width: 0;
   height: 0;
-  bottom: 60%;
+  bottom: 180px;
   left: 49%;
   border-top: 14px solid transparent;
   border-bottom: 14px solid transparent;
