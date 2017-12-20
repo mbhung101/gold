@@ -138,6 +138,7 @@
   margin-bottom: 24px;
   margin-left: 7%;
   margin-right: 7%;
+  z-index:900;
 }
 
 .bottomSearch{
@@ -314,8 +315,8 @@
   height: 30px;
   width: 30px;
   transform: rotate(-45deg);
-  top: 80px;
-  right:40px;
+  top: 46%;
+  right:15%;
 }
 
 .infoBox{
@@ -342,8 +343,8 @@
   font-size: 21px;
   text-align: left;
   color: #ffffff;
-  top: 84px;
-  left:27px;
+  top: 50%;
+  left:15%;
 }
 
 .line1 {
@@ -623,26 +624,43 @@
 }
 
 .votingBack{
-  width:1440px;
+  width:100%;
   height:763px;
-  margin-top:108px;
   background-image: url("./Assets/vote.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .votingBoxes{
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 
-.votingBox{
+.votingBox1{
   display: inline-block;
-  position: relative;
+  position: absolute;
   text-align: left;
   color: white;
-  bottom: 628px;
+  margin-top: 15%;
   left: 7%;
+}
+
+.votingBox2{
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+  color: white;
+  margin-top: 15%;
+  left: 36%;
+}
+
+.votingBox3{
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+  color: white;
+  margin-top: 15%;
+  left: 65%;
 }
 
 .votingButton{
@@ -652,7 +670,7 @@
   position: relative;
   text-align: center;
   background: #c79226;
-  bottom: 146px;
+  bottom: 70px;
   line-height: 2.8;
   color: white;
   font-family: Open Sans;
@@ -665,11 +683,11 @@
   position: relative;
   text-align: center;
   width: 600px;
-  bottom: 140px;
   margin-left: 270px;
   color: white;
   font-family: Open Sans;
   font-size: 36px;
+  bottom: 60px;
 }
 
 .votingCheckbox1 {
@@ -683,30 +701,6 @@
     top: 30px;
 }
 
-.votingCheckbox2 {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    border: solid 3px #ffffff;
-    display: inline-block;
-    color: white;
-    position: absolute;
-    left: 430px;
-    top: 30px;
-}
-
-.votingCheckbox3 {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    border: solid 3px #ffffff;
-    display: inline-block;
-    color: white;
-    position: absolute;
-    left: 860px;
-    top: 30px;
-}
-
 .votingCheckmark1{
   color: #ffffff;
   position: relative;
@@ -716,26 +710,15 @@
   top: 40px;
 }
 
-.votingCheckmark2{
-  color: #ffffff;
+.votingDiv{
   position: relative;
-  font-family: Open Sans;
-  font-size: 30px;
-  left: 439px;
-  top: 40px;
-}
-
-.votingCheckmark3{
-  color: #ffffff;
-  position: relative;
-  font-family: Open Sans;
-  font-size: 30px;
-  left: 868px;
-  top: 40px;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
 }
 
 .votingItems{
-  position: relative;
+  position: absolute;
   width: 300px;
   height: 30px;
   font-family: Open Sans;
@@ -743,8 +726,9 @@
   text-align: left;
   color: #ffffff;
   display: inline-block;
-  bottom: 700px;
   left: 7%;
+  top: 15%;
+
 }
 
 .votingLabel1{
@@ -762,38 +746,6 @@
   line-height: 1.2;
 }
 
-.votingLabel2{
-  width: 300px;
-  height: 46px;
-  font-family: Open Sans;
-  font-size: 34px;
-  font-weight: bold;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-  text-align: left;
-  display: inline-block;
-  top: 120px;
-  left: 430px;
-  line-height: 1.2;
-}
-
-.votingLabel3{
-  width: 300px;
-  height: 46px;
-  font-family: Open Sans;
-  font-size: 34px;
-  font-weight: bold;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-  text-align: left;
-  display: inline-block;
-  top: 120px;
-  left: 860px;
-  line-height: 1.2;
-}
-
 .votingRead1{
   width: 134px;
   height: 43px;
@@ -806,40 +758,8 @@
   color: #ffffff;
   position: absolute;
   display: inline-block;
-  top: 410px;
+  top: 380px;
   left: 100px;
-}
-
-.votingRead2{
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ffffff;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 2.9;
-  color: #ffffff;
-  position: absolute;
-  display: inline-block;
-  top: 410px;
-  left: 520px;
-}
-
-.votingRead3{
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ffffff;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 2.9;
-  color: #ffffff;
-  position: absolute;
-  display: inline-block;
-  top: 410px;
-  left: 980px;
 }
 
 
@@ -853,35 +773,7 @@
   position: absolute;
   text-align: left;
   display: inline-block;
-  top: 240px;
-}
-
-.votingText2{
-  width: 380px;
-  height: 147px;
-  font-family: Open Sans;
-  font-size: 14px;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-  text-align: left;
-  display: inline-block;
-  top: 240px;
-  left: 430px;
-}
-
-.votingText3{
-  width: 380px;
-  height: 147px;
-  font-family: Open Sans;
-  font-size: 14px;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-  text-align: left;
-  display: inline-block;
-  top: 240px;
-  left: 860px;
+  top: 200px;
 }
 
 .welcomeBox{
