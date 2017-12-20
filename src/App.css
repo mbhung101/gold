@@ -228,7 +228,7 @@
   vertical-align: top;
   position: relative;
   float: right;
-  left: 80%;
+  left: 50%;
   bottom: 100px;
 }
 
@@ -509,8 +509,8 @@
   height: 43px;
   border: solid 2px #ffffff;
   text-align: center;
-  bottom: 14%;
-  left: 83px;
+  bottom: 40px;
+  left: 30%;
   text-align: center;
   vertical-align:middle;
   line-height: 43px;
@@ -521,9 +521,8 @@
   width: 134px;
   height: 43px;
   border: solid 2px #ffffff;
-  text-align: center;
-  bottom: 14%;
-  left: 243px;
+  bottom: 40px;
+  left: 40%;
   text-align: center;
   vertical-align:middle;
   line-height: 43px;
@@ -588,23 +587,23 @@
 }
 
 .ovalSmall {
-  position: relative;
+  position: absolute;
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  bottom: 50%;
-  left: 50%;
+  bottom: 165px;
+  left: 41.5%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 .ovalSmallMid {
-  position: relative;
+  position: absolute;
   width: 57px;
   height: 57px;
   border-radius: 50%;
-  bottom: 50%;
-  left: 50%;
+  bottom: 165px;
+  left: 46%;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -624,7 +623,7 @@
   position: absolute;
   width: 0;
   height: 0;
-  bottom: 58%;
+  bottom: 180px;
   left: 49.5%;
   border-top: 14px solid transparent;
   border-bottom: 14px solid transparent;
