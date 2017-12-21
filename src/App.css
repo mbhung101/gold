@@ -381,85 +381,102 @@
   float:right;
 }
 
+.navBox1{
+  position: absolute;
+  width: 8%;
+  height: 100%;
+  margin-left: 5%;
+  display: inline-block;
+  float: left;
+}
+
+.navBox2{
+  position: absolute;
+  left: 15.5%;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.navBox3{
+  position: absolute;
+  left: 61%;
+  width: 22%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.navBox4{
+  position: absolute;
+  left: 84%;
+  width: 15%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+}
 
 .navLogo {
-  width: 85px;
-  height: 42px;
-  margin-top: 24px;
-  margin-bottom: 35px;
-  display: inline-block;
+  position: relative;
+  height: 40%;
+  top: 30%;
 }
 
 .navBar{
   position: fixed;
   top: 0;
+  height: 13%;
   width: 100%;
-  height:80px;
   z-index:1000;
   background: white;
+  opacity: .9;
 }
-
-.navBox {
-  height: 100%;
-  width: 55%;
-  background-color: #ffffff;
-  float:left;
-  margin-left: 7%
-}
-
-.navBox2 {
-  display: inline-block;
-  background-color: #ffffff;
-  height: 100%;
-  width: 30%;
-  float:right;
-  text-align: right;
-  margin-right: 6.9%
-}
-
 
 .navButton{
-  display: inline-block;
-  width: 160px;
-  height: 40px;
+  position: absolute;
+  bottom: 28%;
+  width: 65%;
+  height: 35%;
   text-align: center;
+  vertical-align: bottom;
+  margin-top: 12%;
   background: #c79226;
-  line-height: 2.8;
   color: white;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 1.8vh;
   font-weight: bold;
+  line-height: 2.6;
 }
 
 .navLink {
-  font-size: 14px;
-  margin-right: 40px;
+  width: 18%;
+  position: relative;
+  font-size: 1.7vh;
   font-family: Open Sans;
   color: #043a56;
   background-color: #ffffff;
   display: inline-block;
-}
-
-.navLinks {
-  display: inline-block;
-  width:480px;
-  height: 24;
-  margin-top: 40px;
-  margin-left: 76px;
-  vertical-align: top;
-  font-size: 18px;
-  font-family: Open Sans;
-  color: #043a56;
+  height: 50%;
+  float: left;
+  left: 12.5%;
+  top:45%;
+  margin-right: 1%;
+  line-height: .9
 }
 
 .navProxy{
+  position: relative;
+  margin-right: 5%;
   font-size: 10px;
-  margin-top: 40px;
-  margin-right: 30px;
+  vertical-align: top;
   font-family: Open Sans;
   color: #043a56;
   background-color: #ffffff;
   display: inline-block;
+  top: 51%;
+  height: 1%;
+  line-height: .00001;
 }
 
 .ourBoxes{
@@ -562,7 +579,7 @@
   text-align: center;
   color: #ffffff;
   bottom: 100px;
-  left: 22%;
+  left: 18%;
   font-family: Open Sans
 }
 
@@ -785,10 +802,11 @@
 }
 
 .welcomeBox{
+  position: absolute;
   text-align: center;
-  margin-top: 105px;
+  top: 13%;
   width: 100%;
-  height:660px;
+  height:87%;
   color: white;
   background-image: url("./Assets/welcome.jpg");
   background-repeat: no-repeat;
