@@ -1,859 +1,1758 @@
-.addBox{
-  width: 100%;
-  font-family: Open Sans;
-  font-size: 34px;
-  text-align: center;
-  color: #043a56;
-  margin-top: 77px;
-}
-
-.annualAddress{
-  width: 303px;
-  height: 33px;
-  font-family: Open Sans;
-  font-size: 24px;
-  text-align: left;
-  color: #043a56;
-  position: relative;
-  left: 714px;
-  top: 180px;
-  line-height: 1.4;
-}
-
-.annualDate {
-  width: 303px;
-  height: 33px;
-  font-family: Open Sans;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  color: #043a56;
-  position: relative;
-  left: 188px;
-  top: 200px;
-  display: inline-block;
-}
-
-.annualDetails{
-  width: 560px;
-  height: 49px;
-  font-family: Open Sans;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: left;
-  color: #043a56;
-  position: relative;
-  left:380px;
-  top: 80px;
-}
-
-.annualWhen {
-  width: 94px;
-  height: 19px;
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: bold;
-  color: #ba880b;
-  position: relative;
-  left:380px;
-  top: 140px;
-  display: inline-block;
-}
-
-.annualWhere {
-  width: 94px;
-  height: 19px;
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: bold;
-  color: #ba880b;
-  position: relative;
-  left: 620px;
-  top: 140px;
-  display: inline-block;
-}
-
-.annualPlace {
-  width: 303px;
-  height: 33px;
-  font-family: Open Sans;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  color: #043a56;
-  position: relative;
-  left: 222px;
-  top: 198px;
-  display: inline-block;
-}
-
-.annualTime{
-  width: 303px;
-  height: 33px;
-  font-family: Open Sans;
-  font-size: 24px;
-  text-align: left;
-  color: #043a56;
-  position: relative;
-  left: 378px;
-  top: 220px;
-  line-height: 1.2;
-}
-
-.backgroundLogo2{
-  width: 390px;
-  height: 328.6px;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 74px;
-  position: relative;
-  margin-left: -100px;
-}
-
-.bigArrowRight {
-  position: relative;
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 25px solid #043a56;
-  top: 135px;
-  left: 278px;
-}
-
-.bottomBox{
-  width:87%;
-  height: 80px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 7%;
-  margin-right: 7%;
-  z-index:900;
-}
-
-.bottomSearch{
-  float:right;
-  margin-top: 20px;
-}
-
-.directorBox{
-  display: inline-block;
-  vertical-align: top;
-}
-
-.directorImage{
-  width: 260px;
-  height: 412px;
-  display: inline-block;
-  margin-right: 36px;
-  margin-left: 15%;
-}
-
-.directorQuote{
-  width: 360px;
-  height: 60px;
-  font-family: Open Sans;
-  font-size: 14px;
-  line-height: 1.43;
-  color: #043a56;
-  text-align: left;
-  position: relative;
-  left: 120px;
-  top: -35px;
-}
-
-.directorQuotes{
-  width: 1px;
-  height: 1px;
-  font-family: Sail;
-  font-size: 106px;
-  font-weight: bold;
-  text-align: left;
-  color: #ba880b;
-  margin-left: 52px;
-  margin-top: 60px;
-}
-
-.directorReadMore{
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ba880b;
-  text-align: center;
-  vertical-align:middle;
-  line-height: 43px;
-  color: #ba880b;
-  font-weight: bold;
-  margin-top:8px;
-  margin-left: 119px;
-  font-family: Open Sans
-}
-
-.directorTitle {
-  width: 320px;
-  height: 98px;
-  font-family: Open Sans;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: left;
-  color: #043a56;
-  margin-left: 36px;
-  margin-top:61px;
-  display: inline-block;
-  vertical-align: top;
-  line-height: 1.1;
-}
-
-.Downloadproxybox{
-  display: inline-block;
-  width: 219px;
-  height: 24px;
-  margin-top: 41px;
-  vertical-align: top;
-  font-size: 18px;
-  font-family: Open Sans;
-  color: #043a56;
-}
-
-.executiveBox{
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-  height: 550px;
-}
-
-.executiveLogo{
-  width: 390px;
-  height: 328.6px;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  float: right;
-  left: 50%;
-  bottom: 100px;
-}
-
-.executivePics{
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  height: 550px;
-  float: right;
-}
-
-.executiveReadMore{
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ba880b;
-  text-align: center;
-  vertical-align:middle;
-  line-height: 43px;
-  color: #ba880b;
-  font-weight: bold;
-  position: relative;
-  font-family: Open Sans;
-  left: 40%;
-  top: 80px;
-}
-
-.executiveImage{
-  width: 240px;
-  height: 436px;
-  display: inline-block;
-  position: relative;
-  top: -200px;
-}
-
-.executiveTitle {
-  width: 400px;
-  font-family: Open Sans;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: left;
-  color: #043a56;
-  margin-left: 20%;
-  margin-top: 106px;
-  display: inline-block;
-  vertical-align: top;
-  font-weight: bold;
-  line-height: 1.1
-}
-
-.executiveQuote{
-  font-family: Open Sans;
-  font-size: 14px;
-  line-height: 1.43;
-  color: #043a56;
-  text-align: left;
-  position: relative;
-  font-family: Open Sans;
-  display: inline-block;
-  top:20px;
-  left: 30%;
-}
-
-.executiveQuotes{
-  font-family: Sail;
-  font-size: 106px;
-  font-weight: bold;
-  text-align: left;
-  color: #ba880b;
-  position: relative;
-  top: 70px;
-  left: 20%;
-}
-
-.executiveWords{
-  width: 45%;
-  margin-left: 7%;
-  margin-right: 7%;
-}
-
-.graphHolder{
-  width:86%;
-  height:14.331%;
-  margin-left: 7%;
-  margin-right: 7%;
-  margin-top: 20px;
-  align-items: center;
-}
-
-.infoArrow{
-  position: absolute;
-  border-right: 10px solid #ba880b;
-  border-bottom: 10px solid #ba880b;
-  height: 30px;
-  width: 30px;
-  transform: rotate(-45deg);
-  top: 46%;
-  right:15%;
-}
-
-.infoBox{
-  width: 25.8%;
-  height: 13.48%;
-  display: inline-block;
-  margin-top: 40px;
-  margin-right: 4.7%;
-  position: relative;
-}
-
-.infoBoxes{
-  align-items: center;
-  width: 100%;
-  margin-top: 20px;
-  margin-left: 7%;
-  margin-right: 7%;
-}
-
-.infoSmallText{
-  position: absolute;
-  width: 196;
-  height: 28px;
-  font-size: 21px;
-  text-align: left;
-  color: #ffffff;
-  top: 50%;
-  left:15%;
-}
-
-.line1 {
-  width: 99px;
-  height: 3px;
-  background: white;
-  position: relative;
-  top:150px;
-  left:250px;
-}
-
-.line2 {
-  width: 70%;
-  height: 3px;
-  background: #ededed;
-  position: relative;
-  top:43%;
-}
-
-.line3 {
-  width: 80%;
-  height: 3px;
-  background: #ededed;
-  position: relative;
-  float:right;
-}
-
-.navBox1{
-  position: absolute;
-  width: 8%;
-  height: 100%;
-  margin-left: 5%;
-  display: inline-block;
-  float: left;
-}
-
-.navBox2{
-  position: absolute;
-  left: 15.5%;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-}
-
-.navBox3{
-  position: absolute;
-  left: 61%;
-  width: 22%;
-  height: 100%;
-  display: inline-block;
-  text-align: center;
-}
-
-.navBox4{
-  position: absolute;
-  left: 84%;
-  width: 15%;
-  height: 100%;
-  float: left;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.navLogo {
-  position: relative;
-  height: 40%;
-  top: 30%;
-}
-
-.navBar{
-  position: fixed;
-  top: 0;
-  height: 13%;
-  width: 100%;
-  z-index:1000;
-  background: white;
-  opacity: .9;
-}
-
-.navButton{
-  position: absolute;
-  bottom: 28%;
-  width: 65%;
-  height: 35%;
-  text-align: center;
-  vertical-align: bottom;
-  margin-top: 12%;
-  background: #c79226;
-  color: white;
-  font-family: Open Sans;
-  font-size: 1.8vh;
-  font-weight: bold;
-  line-height: 2.6;
-}
-
-.navLink {
-  width: 18%;
-  position: relative;
-  font-size: 1.7vh;
-  font-family: Open Sans;
-  color: #043a56;
-  background-color: #ffffff;
-  display: inline-block;
-  height: 50%;
-  float: left;
-  left: 12.5%;
-  top:45%;
-  margin-right: 1%;
-  line-height: .9
-}
-
-.navProxy{
-  position: relative;
-  margin-right: 5%;
-  font-size: 10px;
-  vertical-align: top;
-  font-family: Open Sans;
-  color: #043a56;
-  background-color: #ffffff;
-  display: inline-block;
-  top: 51%;
-  height: 1%;
-  line-height: .00001;
-}
-
-.ourBoxes{
-  display: table;
-  margin-top: 20px;
-  width: 100%;
-  height: 300px;
-  margin-left: 7%;
-  margin-right: 7%;
-}
-
-
-.ourLargeBox{
-  display: table-cell;
-  width:43.055%;
-  height: 300px;
-  position: relative;
-  text-align: center;
-  color: white;
-  float:left;
-  margin-right: 1%;
-}
-
-
-.ourLargeImage{
-  height:100%;
-  width:100%;
-}
-
-
-.ourLargeLearnMore{
-  position: absolute;
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ffffff;
-  text-align: center;
-  bottom: 52px;
-  left: 243px;
-  text-align: center;
-  vertical-align:middle;
-  line-height: 43px;
-}
-
-.ourLearnMore{
-  position: absolute;
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ffffff;
-  text-align: center;
-  bottom: 40px;
-  left: 30%;
-  text-align: center;
-  vertical-align:middle;
-  line-height: 43px;
-}
-
-.ourLearnMoreMid{
-  position: absolute;
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ffffff;
-  bottom: 40px;
-  left: 40%;
-  text-align: center;
-  vertical-align:middle;
-  line-height: 43px;
-}
-
-.ourSmallBox1{
-  display: table-cell;
-  width:20.5%;
-  height: 300px;
-  position: relative;
-  text-align: center;
-  color: white;
-  float:left;
-  margin-right: 1%;
-}
-
-.ourSmallBox2{
-  display: table-cell;
-  width:20.5%;
-  height: 300px;
-  position: relative;
-  text-align: center;
-  color: white;
-  float:left;
-}
-
-.ourSmallImage{
-  height:100%;
-  width:100%;
-}
-
-.ourSmallText{
-  position: absolute;
-  width: 200px;
-  height: 38px;
-  font-size: 28px;
-  text-align: center;
-  color: #ffffff;
-  bottom: 100px;
-  left: 18%;
-  font-family: Open Sans
-}
-
-.ourSmallTextMid{
-  position: absolute;
-  width: 300px;
-  height: 38px;
-  font-size: 28px;
-  color: #ffffff;
-  bottom: 36%;
-  left: 26%;
-}
-
-.ovalLarge {
-  position: relative;
-  width: 73px;
-  height: 73px;
-  border-radius: 50%;
-  top: 187px;
-  left: 250px;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-
-.ovalSmall {
-  position: absolute;
-  width: 57px;
-  height: 57px;
-  border-radius: 50%;
-  bottom: 165px;
-  left: 41.5%;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-
-.ovalSmallMid {
-  position: absolute;
-  width: 57px;
-  height: 57px;
-  border-radius: 50%;
-  bottom: 165px;
-  left: 46%;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-
-.smallArrowRight {
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 180px;
-  left: 49%;
-  border-top: 14px solid transparent;
-  border-bottom: 14px solid transparent;
-  border-left: 18px solid #043a56;
-}
-
-.smallArrowRightMid {
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 180px;
-  left: 49.5%;
-  border-top: 14px solid transparent;
-  border-bottom: 14px solid transparent;
-  border-left: 18px solid #043a56;
-}
-
-.votingBack{
-  width:100%;
-  height:763px;
-  background-image: url("./Assets/vote.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.votingBoxes{
-  position: absolute;
-  width: 100%;
-}
-
-.votingBox1{
-  display: inline-block;
-  position: absolute;
-  text-align: left;
-  color: white;
-  margin-top: 7.5%;
-  left: 7%;
-}
-
-.votingBox2{
-  display: inline-block;
-  position: absolute;
-  text-align: left;
-  color: white;
-  margin-top: 7.5%;
-  left: 38%;
-}
-
-.votingBox3{
-  display: inline-block;
-  position: absolute;
-  text-align: left;
-  color: white;
-  margin-top: 7.5%;
-  left: 68.5%;
-}
-
-.votingButton{
-  display: inline-block;
-  width: 160px;
-  height: 40px;
-  position: relative;
-  text-align: center;
-  background: #c79226;
-  bottom: 90px;
-  line-height: 2.8;
-  color: white;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.votingCast{
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  width: 600px;
-  margin-left: 270px;
-  color: white;
-  font-family: Open Sans;
-  font-size: 36px;
-  bottom: 80px;
-}
-
-.votingCheckbox1 {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    border: solid 3px #ffffff;
-    display: inline-block;
-    color: white;
-    position: absolute;
-    top: 30px;
-}
-
-.votingCheckmark1{
-  color: #ffffff;
-  position: relative;
-  font-family: Open Sans;
-  font-size: 30px;
-  left:10px;
-  top: 40px;
-}
-
-.votingDiv{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  margin-top: 50px;
-}
-
-.votingItems{
-  position: absolute;
-  width: 300px;
-  height: 30px;
-  font-family: Open Sans;
-  font-size: 34px;
-  text-align: left;
-  color: #ffffff;
-  display: inline-block;
-  left: 7%;
-  top: 10%;
-
-}
-
-.votingLabel1{
-  width: 350px;
-  height: 46px;
-  font-family: Open Sans;
-  font-size: 34px;
-  font-weight: bold;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-  text-align: left;
-  display: inline-block;
-  top: 110px;
-  line-height: 1.2;
-}
-
-.votingRead1{
-  width: 134px;
-  height: 43px;
-  border: solid 2px #ffffff;
-  font-family: Open Sans;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 2.9;
-  color: #ffffff;
-  position: absolute;
-  display: inline-block;
-  top: 400px;
-  left: 100px;
-}
-
-
-.votingText1{
-  width: 350px;
-  height: 147px;
-  font-family: Open Sans;
-  font-size: 14px;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-  text-align: left;
-  display: inline-block;
-  top: 210px;
-}
-
-.welcomeBox{
-  position: absolute;
-  text-align: center;
-  top: 13%;
-  width: 100%;
-  height:87%;
-  color: white;
-  background-image: url("./Assets/welcome.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.welcomeDelivering {
-  position: relative;
-  width: 556px;
-  height: 124px;
-  top: 160px;
-  left: 248px;
-  color: white;
-  font-size: 46px;
-  text-align: left;
-  line-height: 1.5;
-  font-family: Open Sans;
-  font-weight: bold;
-}
-
-.welcomeProxy{
-  width: 186px;
-  height: 30px;
-  font-family: Open Sans;
-  font-size: 21px;
-  line-height: 1.43;
-  text-align: left;
-  color: #ffffff;
-  position: relative;
-  top: 105px;
-  left: 350px;
-}
-
-.welcomeText {
+/*phone*/
+@media screen and (max-width: 480px) {
+
+  .addBox{
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 34px;
+    text-align: center;
+    color: #043a56;
+    margin-top: 77px;
+  }
+
+  .annualAddress{
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    text-align: left;
+    color: #043a56;
     position: relative;
-    width: 371px;
+    left: 714px;
+    top: 180px;
+    line-height: 1.4;
+  }
+
+  .annualDate {
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 188px;
+    top: 200px;
+    display: inline-block;
+  }
+
+  .annualDetails{
+    width: 560px;
+    height: 49px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left:380px;
+    top: 80px;
+  }
+
+  .annualWhen {
+    width: 94px;
+    height: 19px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ba880b;
+    position: relative;
+    left:380px;
+    top: 140px;
+    display: inline-block;
+  }
+
+  .annualWhere {
+    width: 94px;
+    height: 19px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ba880b;
+    position: relative;
+    left: 620px;
+    top: 140px;
+    display: inline-block;
+  }
+
+  .annualPlace {
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 222px;
+    top: 198px;
+    display: inline-block;
+  }
+
+  .annualTime{
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 378px;
+    top: 220px;
+    line-height: 1.2;
+  }
+
+  .backgroundLogo2{
+    width: 390px;
+    height: 328.6px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 74px;
+    position: relative;
+    margin-left: -100px;
+  }
+
+  .bigArrowRight {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #043a56;
+    top: 135px;
+    left: 278px;
+  }
+
+  .bottomBox{
+    width:87%;
+    height: 80px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 7%;
+    margin-right: 7%;
+    z-index:900;
+  }
+
+  .bottomSearch{
+    float:right;
+    margin-top: 20px;
+  }
+
+  .directorBox{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .directorImage{
+    width: 260px;
+    height: 412px;
+    display: inline-block;
+    margin-right: 36px;
+    margin-left: 15%;
+  }
+
+  .directorQuote{
+    width: 360px;
+    height: 60px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #043a56;
+    text-align: left;
+    position: relative;
+    left: 120px;
+    top: -35px;
+  }
+
+  .directorQuotes{
+    width: 1px;
+    height: 1px;
+    font-family: Sail;
+    font-size: 106px;
+    font-weight: bold;
+    text-align: left;
+    color: #ba880b;
+    margin-left: 52px;
+    margin-top: 60px;
+  }
+
+  .directorReadMore{
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ba880b;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+    color: #ba880b;
+    font-weight: bold;
+    margin-top:8px;
+    margin-left: 119px;
+    font-family: Open Sans
+  }
+
+  .directorTitle {
+    width: 320px;
+    height: 98px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    margin-left: 36px;
+    margin-top:61px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.1;
+  }
+
+  .Downloadproxybox{
+    display: inline-block;
+    width: 219px;
+    height: 24px;
+    margin-top: 41px;
+    vertical-align: top;
+    font-size: 18px;
+    font-family: Open Sans;
+    color: #043a56;
+  }
+
+  .executiveBox{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 550px;
+  }
+
+  .executiveLogo{
+    width: 390px;
+    height: 328.6px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    float: right;
+    left: 50%;
+    bottom: 100px;
+  }
+
+  .executivePics{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 550px;
+    float: right;
+  }
+
+  .executiveReadMore{
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ba880b;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+    color: #ba880b;
+    font-weight: bold;
+    position: relative;
+    font-family: Open Sans;
+    left: 40%;
+    top: 80px;
+  }
+
+  .executiveImage{
+    width: 240px;
+    height: 436px;
+    display: inline-block;
+    position: relative;
+    top: -200px;
+  }
+
+  .executiveTitle {
+    width: 400px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    margin-left: 20%;
+    margin-top: 106px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    line-height: 1.1
+  }
+
+  .executiveQuote{
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #043a56;
+    text-align: left;
+    position: relative;
+    font-family: Open Sans;
+    display: inline-block;
+    top:20px;
+    left: 30%;
+  }
+
+  .executiveQuotes{
+    font-family: Sail;
+    font-size: 106px;
+    font-weight: bold;
+    text-align: left;
+    color: #ba880b;
+    position: relative;
+    top: 70px;
+    left: 20%;
+  }
+
+  .executiveWords{
+    width: 45%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .graphHolder{
+    width:86%;
+    height:14.331%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .infoArrow{
+    position: absolute;
+    border-right: 10px solid #ba880b;
+    border-bottom: 10px solid #ba880b;
     height: 30px;
-    top: 141px;
-    left: 248px;
-    color: white;
+    width: 30px;
+    transform: rotate(-45deg);
+    top: 46%;
+    right:15%;
+  }
+
+  .infoBox{
+    width: 25.8%;
+    height: 13.48%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 4.7%;
+    position: relative;
+  }
+
+  .infoBoxes{
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .infoSmallText{
+    position: absolute;
+    width: 196;
+    height: 28px;
     font-size: 21px;
     text-align: left;
+    color: #ffffff;
+    top: 50%;
+    left:15%;
+  }
+
+  .line1 {
+    width: 15%;
+    height: .5%;
+    background: white;
+    position: relative;
+    top: 24%;
+    left: 24%;
+  }
+
+  .line2 {
+    width: 70%;
+    height: 3px;
+    background: #ededed;
+    position: relative;
+    top:43%;
+  }
+
+  .line3 {
+    width: 80%;
+    height: 3px;
+    background: #ededed;
+    position: relative;
+    float:right;
+  }
+
+
+    .navBar{
+      position: fixed;
+      top: 0;
+      height: 11%;
+      width: 100%;
+      z-index:1000;
+      opacity: .9;
+    }
+
+    .navBox1{
+      position: absolute;
+      width: 16%;
+      height: 100%;
+      margin-left: 5%;
+      display: inline-block;
+      float: left;
+      background-color: white
+    }
+
+    .navBox2{
+      position: absolute;
+      left: 17%;
+      width: 50%;
+      height: 90%;
+      text-align: center;
+    }
+
+    .navBox3{
+      position: absolute;
+      left: 68.5%;
+      width: 15%;
+      height: 100%;
+      text-align: center;
+    }
+
+    .navBox4{
+      position: absolute;
+      left: 84%;
+      width: 15%;
+      height: 100%;
+      float: left;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .navButton{
+      position: absolute;
+      bottom: 10%;
+      width: 70%;
+      height: 53%;
+      text-align: center;
+      vertical-align: middle;
+      background: #c79226;
+      color: white;
+      font-family: Open Sans;
+      font-size: 1.8vh;
+      font-weight: bold;
+      line-height: 1.6;
+    }
+
+    .navButton:hover{
+      background: #043a56;
+      cursor: pointer;
+    }
+
+    .navLink {
+      width: 16%;
+      position: relative;
+      font-size: 1.7vh;
+      font-family: Open Sans;
+      color: #043a56;
+      background-color: #ffffff;
+      height: 100%;
+      float: left;
+      left: 12.5%;
+      margin-right: 7%;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .navLinkWord:hover{
+      color:#c79226;
+      cursor: pointer;
+    }
+
+    .navLinkWord3:hover{
+      color:#c79226;
+      cursor: pointer;
+    }
+
+    .navLinkWord {
+      position: absolute;
+      top:50%;
+    }
+
+    .navLinkWord3 {
+      position: absolute;
+      top:50%;
+      left:30%;
+    }
+
+    .navLogo {
+      position: relative;
+      height: 50%;
+      top: 40%;
+    }
+
+    .navProxy1{
+      position: relative;
+      margin-right: 8%;
+      font-size: 10px;
+      vertical-align: top;
+      font-family: Open Sans;
+      color: #043a56;
+      background-color: #ffffff;
+      display: inline-block;
+      top: 30%;
+      height: 25%;
+      line-height: 1;
+    }
+
+    .navProxy1:hover{
+      color:#c79226;
+      cursor: pointer;
+    }
+
+    .navProxy2:hover{
+      color:#c79226;
+      cursor: pointer;
+    }
+
+
+    .navProxy2{
+      position: relative;
+      margin-right: 8%;
+      font-size: 10px;
+      vertical-align: top;
+      font-family: Open Sans;
+      color: #043a56;
+      background-color: #ffffff;
+      display: inline-block;
+      top: 45%;
+      height: 25%;
+      line-height: 1;
+    }
+
+  .ourBoxes{
+    display: table;
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+
+  .ourLargeBox{
+    display: table-cell;
+    width:43.055%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+    margin-right: 1%;
+  }
+
+
+  .ourLargeImage{
+    height:100%;
+    width:100%;
+  }
+
+
+  .ourLargeLearnMore{
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    text-align: center;
+    bottom: 52px;
+    left: 243px;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+  }
+
+  .ourLearnMore{
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    text-align: center;
+    bottom: 40px;
+    left: 30%;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+  }
+
+  .ourLearnMoreMid{
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    bottom: 40px;
+    left: 40%;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+  }
+
+  .ourSmallBox1{
+    display: table-cell;
+    width:20.5%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+    margin-right: 1%;
+  }
+
+  .ourSmallBox2{
+    display: table-cell;
+    width:20.5%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+  }
+
+  .ourSmallImage{
+    height:100%;
+    width:100%;
+  }
+
+  .ourSmallText{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    bottom: 100px;
+    left: 18%;
+    font-family: Open Sans
+  }
+
+  .ourSmallTextMid{
+    position: absolute;
+    width: 300px;
+    height: 38px;
+    font-size: 28px;
+    color: #ffffff;
+    bottom: 36%;
+    left: 26%;
+  }
+
+  .ovalLarge {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    top: 50%;
+    left: 24%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .ovalSmall {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    bottom: 165px;
+    left: 41.5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .ovalSmallMid {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    bottom: 165px;
+    left: 46%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .smallArrowRight {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 180px;
+    left: 49%;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 18px solid #043a56;
+  }
+
+  .smallArrowRightMid {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 180px;
+    left: 49.5%;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 18px solid #043a56;
+  }
+
+  .votingBack{
+    width:100%;
+    height:763px;
+    background-image: url("./Assets/vote.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .votingBoxes{
+    position: absolute;
+    width: 100%;
+  }
+
+  .votingBox1{
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    color: white;
+    margin-top: 7.5%;
+    left: 7%;
+  }
+
+  .votingBox2{
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    color: white;
+    margin-top: 7.5%;
+    left: 38%;
+  }
+
+  .votingBox3{
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    color: white;
+    margin-top: 7.5%;
+    left: 68.5%;
+  }
+
+  .votingButton{
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    background: #c79226;
+    bottom: 90px;
+    line-height: 2.8;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .votingCast{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 600px;
+    margin-left: 270px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 36px;
+    bottom: 80px;
+  }
+
+  .votingCheckbox1 {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      border: solid 3px #ffffff;
+      display: inline-block;
+      color: white;
+      position: absolute;
+      top: 30px;
+  }
+
+  .votingCheckmark1{
+    color: #ffffff;
+    position: relative;
+    font-family: Open Sans;
+    font-size: 30px;
+    left:10px;
+    top: 40px;
+  }
+
+  .votingDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .votingItems{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    font-family: Open Sans;
+    font-size: 34px;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+    left: 7%;
+    top: 10%;
+
+  }
+
+  .votingLabel1{
+    width: 350px;
+    height: 46px;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    top: 110px;
+    line-height: 1.2;
+  }
+
+  .votingRead1{
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.9;
+    color: #ffffff;
+    position: absolute;
+    display: inline-block;
+    top: 400px;
+    left: 100px;
+  }
+
+
+  .votingText1{
+    width: 350px;
+    height: 147px;
+    font-family: Open Sans;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    top: 210px;
+  }
+
+  .welcomeBox{
+    position: absolute;
+    text-align: center;
+    top: 11%;
+    width: 100%;
+    height:87%;
+    color: white;
+    background-image: url("./Assets/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .welcomeDelivering {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 28%;
+    left: 24%;
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    line-height: 1.5;
+    font-family: Open Sans;
+    font-weight: bold;
+  }
+
+  .welcomeProxy{
+    width: 186px;
+    height: 30px;
+    font-family: Open Sans;
+    font-size: 21px;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    top: 90%;
+    left: 350px;
+  }
+
+  .welcomeText {
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    color: white;
+    font-size: 3vw;
+    text-align: left;
+  }
 }
 
+@media screen and (min-width: 481px) {
+  .addBox{
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 34px;
+    text-align: center;
+    color: #043a56;
+    margin-top: 77px;
+  }
+
+  .annualAddress{
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 714px;
+    top: 180px;
+    line-height: 1.4;
+  }
+
+  .annualDate {
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 188px;
+    top: 200px;
+    display: inline-block;
+  }
+
+  .annualDetails{
+    width: 560px;
+    height: 49px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left:380px;
+    top: 80px;
+  }
+
+  .annualWhen {
+    width: 94px;
+    height: 19px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ba880b;
+    position: relative;
+    left:380px;
+    top: 140px;
+    display: inline-block;
+  }
+
+  .annualWhere {
+    width: 94px;
+    height: 19px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ba880b;
+    position: relative;
+    left: 620px;
+    top: 140px;
+    display: inline-block;
+  }
+
+  .annualPlace {
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 222px;
+    top: 198px;
+    display: inline-block;
+  }
+
+  .annualTime{
+    width: 303px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 24px;
+    text-align: left;
+    color: #043a56;
+    position: relative;
+    left: 378px;
+    top: 220px;
+    line-height: 1.2;
+  }
+
+  .backgroundLogo2{
+    width: 390px;
+    height: 328.6px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 74px;
+    position: relative;
+    margin-left: -100px;
+  }
+
+  .bigArrowRight {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #043a56;
+    top: 135px;
+    left: 278px;
+  }
+
+  .bottomBox{
+    width:87%;
+    height: 80px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 7%;
+    margin-right: 7%;
+    z-index:900;
+  }
+
+  .bottomSearch{
+    float:right;
+    margin-top: 20px;
+  }
+
+  .directorBox{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .directorImage{
+    width: 260px;
+    height: 412px;
+    display: inline-block;
+    margin-right: 36px;
+    margin-left: 15%;
+  }
+
+  .directorQuote{
+    width: 360px;
+    height: 60px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #043a56;
+    text-align: left;
+    position: relative;
+    left: 120px;
+    top: -35px;
+  }
+
+  .directorQuotes{
+    width: 1px;
+    height: 1px;
+    font-family: Sail;
+    font-size: 106px;
+    font-weight: bold;
+    text-align: left;
+    color: #ba880b;
+    margin-left: 52px;
+    margin-top: 60px;
+  }
+
+  .directorReadMore{
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ba880b;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+    color: #ba880b;
+    font-weight: bold;
+    margin-top:8px;
+    margin-left: 119px;
+    font-family: Open Sans
+  }
+
+  .directorTitle {
+    width: 320px;
+    height: 98px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    margin-left: 36px;
+    margin-top:61px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.1;
+  }
+
+  .Downloadproxybox{
+    display: inline-block;
+    width: 219px;
+    height: 24px;
+    margin-top: 41px;
+    vertical-align: top;
+    font-size: 18px;
+    font-family: Open Sans;
+    color: #043a56;
+  }
+
+  .executiveBox{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 550px;
+  }
+
+  .executiveLogo{
+    width: 390px;
+    height: 328.6px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    float: right;
+    left: 50%;
+    bottom: 100px;
+  }
+
+  .executivePics{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 550px;
+    float: right;
+  }
+
+  .executiveReadMore{
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ba880b;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+    color: #ba880b;
+    font-weight: bold;
+    position: relative;
+    font-family: Open Sans;
+    left: 40%;
+    top: 80px;
+  }
+
+  .executiveImage{
+    width: 240px;
+    height: 436px;
+    display: inline-block;
+    position: relative;
+    top: -200px;
+  }
+
+  .executiveTitle {
+    width: 400px;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #043a56;
+    margin-left: 20%;
+    margin-top: 106px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    line-height: 1.1
+  }
+
+  .executiveQuote{
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #043a56;
+    text-align: left;
+    position: relative;
+    font-family: Open Sans;
+    display: inline-block;
+    top:20px;
+    left: 30%;
+  }
+
+  .executiveQuotes{
+    font-family: Sail;
+    font-size: 106px;
+    font-weight: bold;
+    text-align: left;
+    color: #ba880b;
+    position: relative;
+    top: 70px;
+    left: 20%;
+  }
+
+  .executiveWords{
+    width: 45%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .graphHolder{
+    width:86%;
+    height:14.331%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .infoArrow{
+    position: absolute;
+    border-right: 10px solid #ba880b;
+    border-bottom: 10px solid #ba880b;
+    height: 30px;
+    width: 30px;
+    transform: rotate(-45deg);
+    top: 46%;
+    right:15%;
+  }
+
+  .infoBox{
+    width: 25.8%;
+    height: 13.48%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 4.7%;
+    position: relative;
+  }
+
+  .infoBoxes{
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .infoSmallText{
+    position: absolute;
+    width: 196;
+    height: 28px;
+    font-size: 21px;
+    text-align: left;
+    color: #ffffff;
+    top: 50%;
+    left:15%;
+  }
+
+  .line1 {
+    width: 15%;
+    height: .5%;
+    background: white;
+    position: relative;
+    top: 24%;
+    left: 24%;
+  }
+
+  .line2 {
+    width: 70%;
+    height: 3px;
+    background: #ededed;
+    position: relative;
+    top:43%;
+  }
+
+  .line3 {
+    width: 80%;
+    height: 3px;
+    background: #ededed;
+    position: relative;
+    float:right;
+  }
 
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    .navBar{
+      position: fixed;
+      top: 0;
+      height: 13%;
+      width: 100%;
+      z-index:1000;
+      background: white;
+      opacity: .9;
+    }
+
+    .navBox1{
+      position: absolute;
+      width: 8%;
+      height: 100%;
+      margin-left: 5%;
+      display: inline-block;
+      float: left;
+    }
+
+    .navBox2{
+      position: absolute;
+      left: 15.5%;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+    }
+
+    .navBox3{
+      position: absolute;
+      left: 63%;
+      width: 15%;
+      height: 100%;
+      text-align: center;
+    }
+
+    .navBox4{
+      position: absolute;
+      left: 84%;
+      width: 15%;
+      height: 100%;
+      float: left;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .navButton{
+      position: absolute;
+      bottom: 28%;
+      width: 65%;
+      height: 35%;
+      text-align: center;
+      vertical-align: bottom;
+      margin-top: 12%;
+      background: #c79226;
+      color: white;
+      font-family: Open Sans;
+      font-size: 1.8vh;
+      font-weight: bold;
+      line-height: 2.6;
+    }
+
+    .navLink {
+      width: 18%;
+      position: relative;
+      font-size: 1.7vh;
+      font-family: Open Sans;
+      color: #043a56;
+      background-color: #ffffff;
+      display: inline-block;
+      height: 50%;
+      float: left;
+      left: 12.5%;
+      top:45%;
+      margin-right: 1%;
+      line-height: .9
+    }
+
+    .navLogo {
+      position: relative;
+      height: 40%;
+      top: 30%;
+    }
+
+    .navProxy{
+      position: relative;
+      margin-right: 8%;
+      font-size: 10px;
+      vertical-align: top;
+      font-family: Open Sans;
+      color: #043a56;
+      background-color: #ffffff;
+      display: inline-block;
+      top: 50%;
+      height: 10%;
+      line-height: 1;
+    }
+
+  .ourBoxes{
+    display: table;
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+
+  .ourLargeBox{
+    display: table-cell;
+    width:43.055%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+    margin-right: 1%;
+  }
+
+
+  .ourLargeImage{
+    height:100%;
+    width:100%;
+  }
+
+
+  .ourLargeLearnMore{
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    text-align: center;
+    bottom: 52px;
+    left: 243px;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+  }
+
+  .ourLearnMore{
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    text-align: center;
+    bottom: 40px;
+    left: 30%;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+  }
+
+  .ourLearnMoreMid{
+    position: absolute;
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    bottom: 40px;
+    left: 40%;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 43px;
+  }
+
+  .ourSmallBox1{
+    display: table-cell;
+    width:20.5%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+    margin-right: 1%;
+  }
+
+  .ourSmallBox2{
+    display: table-cell;
+    width:20.5%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+  }
+
+  .ourSmallImage{
+    height:100%;
+    width:100%;
+  }
+
+  .ourSmallText{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    bottom: 100px;
+    left: 18%;
+    font-family: Open Sans
+  }
+
+  .ourSmallTextMid{
+    position: absolute;
+    width: 300px;
+    height: 38px;
+    font-size: 28px;
+    color: #ffffff;
+    bottom: 36%;
+    left: 26%;
+  }
+
+  .ovalLarge {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    top: 50%;
+    left: 24%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .ovalSmall {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    bottom: 165px;
+    left: 41.5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .ovalSmallMid {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    bottom: 165px;
+    left: 46%;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .smallArrowRight {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 180px;
+    left: 49%;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 18px solid #043a56;
+  }
+
+  .smallArrowRightMid {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 180px;
+    left: 49.5%;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 18px solid #043a56;
+  }
+
+  .votingBack{
+    width:100%;
+    height:763px;
+    background-image: url("./Assets/vote.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .votingBoxes{
+    position: absolute;
+    width: 100%;
+  }
+
+  .votingBox1{
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    color: white;
+    margin-top: 7.5%;
+    left: 7%;
+  }
+
+  .votingBox2{
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    color: white;
+    margin-top: 7.5%;
+    left: 38%;
+  }
+
+  .votingBox3{
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    color: white;
+    margin-top: 7.5%;
+    left: 68.5%;
+  }
+
+  .votingButton{
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    background: #c79226;
+    bottom: 90px;
+    line-height: 2.8;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .votingCast{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 600px;
+    margin-left: 270px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 36px;
+    bottom: 80px;
+  }
+
+  .votingCheckbox1 {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      border: solid 3px #ffffff;
+      display: inline-block;
+      color: white;
+      position: absolute;
+      top: 30px;
+  }
+
+  .votingCheckmark1{
+    color: #ffffff;
+    position: relative;
+    font-family: Open Sans;
+    font-size: 30px;
+    left:10px;
+    top: 40px;
+  }
+
+  .votingDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  .votingItems{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    font-family: Open Sans;
+    font-size: 34px;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+    left: 7%;
+    top: 10%;
+
+  }
+
+  .votingLabel1{
+    width: 350px;
+    height: 46px;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    top: 110px;
+    line-height: 1.2;
+  }
+
+  .votingRead1{
+    width: 134px;
+    height: 43px;
+    border: solid 2px #ffffff;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.9;
+    color: #ffffff;
+    position: absolute;
+    display: inline-block;
+    top: 400px;
+    left: 100px;
+  }
+
+
+  .votingText1{
+    width: 350px;
+    height: 147px;
+    font-family: Open Sans;
+    font-size: 14px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    top: 210px;
+  }
+
+  .welcomeBox{
+    position: absolute;
+    text-align: center;
+    top: 13%;
+    width: 100%;
+    height:87%;
+    color: white;
+    background-image: url("./Assets/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .welcomeDelivering {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 28%;
+    left: 24%;
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    line-height: 1.5;
+    font-family: Open Sans;
+    font-weight: bold;
+  }
+
+  .welcomeProxy{
+    width: 186px;
+    height: 30px;
+    font-family: Open Sans;
+    font-size: 21px;
+    line-height: 1.43;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+    top: 90%;
+    left: 350px;
+  }
+
+  .welcomeText {
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    color: white;
+    font-size: 3vw;
+    text-align: left;
+  }
+
+
 }

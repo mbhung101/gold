@@ -9,12 +9,14 @@ export default class Welcome extends Component {
   render(){
     return(
       <div className="welcomeBox">
+        <div style ={{height:"100%",width:"100%"}}>
         <div className="welcomeText">Welcome</div>
         <div className="line1"></div>
         <div className="welcomeDelivering"> Barrick: Delivering for Shareholders</div>
         <div className="ovalLarge"></div>
         <div className="bigArrowRight"></div>
         <div className="welcomeProxy">2018 Proxy</div>
+        </div>
       </div>
     )
   }
